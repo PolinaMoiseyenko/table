@@ -1,0 +1,26 @@
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear:box;
+}
+
+.container {
+    margin: 50px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#reload{
+    background: green;
+    border: 1px solid darkgreen;
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+}
